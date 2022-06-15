@@ -10,6 +10,21 @@ body {
     background-color: #f2d2c2;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+.current-thing {
+    position: fixed;
+    top: 3.5rem;
+    width: 100%;
+    background-color: #f29083;
+}
+.current-thing p {
+    text-align: center;
+    padding: 0.1rem;
+}
+
 nav {
     height: 3.5rem;
     width: 100%;
@@ -32,18 +47,20 @@ nav .nav-links {
 
 .nav-links a {
     text-decoration: none;
-    padding: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
     color: #c6e3f5;
 }
 
 .nav-links a:hover {
+    background-color: #e3911e;
     color: #5353ed;
     transition: ease-in 0.2s;
 }
 
 
 main {
-    margin-top: 3.5rem;
+    margin-top: 4.7rem;
 }
 
 
@@ -58,19 +75,37 @@ main {
     align-items: center;
 }
 
-.mission {
+.banner-heading {
     border-radius: 10px;
     /* background-color: #f79263;
     opacity: 0.6;
     padding: 1rem; */
 }
 
-.mission h2 {
+.banner-heading h2 {
     font-size: 3rem;
     color: #110ead;
 }
 
 
+/* Mission
+=================== */
+.mission {
+    height: 15rem;
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission h2 {
+    margin-bottom: 1rem;
+}
+
+.mission p {
+    font-size: 1.125rem;
+}
 
 
 
@@ -98,8 +133,22 @@ main {
 
 .team h2 {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.person {
+    background-color: #ceebe7;
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+}
+
+.person-title {
+    text-align: center;
+    padding: 0.75rem;
 }
