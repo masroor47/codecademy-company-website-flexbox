@@ -11,6 +11,7 @@ nav {
     height: 3.5rem;
     width: 100%;
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,4 +36,33 @@ nav .nav-links {
 .nav-links a:hover {
     color: #5353ed;
     transition: ease-in 0.2s;
+}
+
+
+main {
+    margin-top: 3.5rem;
+}
+
+
+.banner {
+    height: 25rem;
+    background-image: url("images/space.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    border-radius: 10px;
+    /* background-color: #f79263;
+    opacity: 0.6;
+    padding: 1rem; */
+}
+
+.mission h2 {
+    font-size: 3rem;
+    color: #110ead;
 }
