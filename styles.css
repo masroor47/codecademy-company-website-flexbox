@@ -91,11 +91,12 @@ main {
 /* Mission
 =================== */
 .mission {
-    height: 15rem;
+    height: 10rem;
     width: 50%;
-    margin: 2rem auto;
+    margin: 3rem auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -104,13 +105,27 @@ main {
 }
 
 .mission p {
-    font-size: 1.125rem;
+    font-size: 1.3rem;
 }
 
 
+/* PRODUCT
+===========================*/
 
+.product {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.product h2 {
+    margin-bottom: 1rem;
+}
 
+.product-card {
+    display: flex;
+}
 
 
 
