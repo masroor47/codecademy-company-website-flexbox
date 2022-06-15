@@ -2,15 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: ; */
+    font-size: 16px;
 }
 
 
 nav {
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #c77b10;
+}
+
+.logo {
+    margin-left: 10px;
 }
 
 nav .nav-links {
     display: flex;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #c6e3f5;
+}
+
+.nav-links a:hover {
+    color: #5353ed;
+    transition: ease-in 0.2s;
 }
